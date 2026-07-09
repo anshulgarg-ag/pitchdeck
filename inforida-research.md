@@ -71,7 +71,7 @@ no prior exit, no prior P&L or B2B-sales ownership.
 |---|---|---|
 | Role | Co-founder & Head of Operations | `[verified: LinkedIn/Crunchbase]` |
 | Prior | Founder at "Xplorida"; attended Edith Cowan University (Australia) | `[verified]` |
-| Note | "Xplorida" naming closeness to "Inforida" suggests a predecessor/rebrand — **investigate** | `[estimate]` |
+| Xplorida (resolved) | **NOT a school/EdTech predecessor.** Xplorida = **advertising-platform** company, Noida UP, 11–50 staff. Different domain. **Does not carry pre-2025 school traction** | `[verified: Crunchbase]` |
 
 ### 1.3 Other named team
 - Founding engineers **Ravi Kiran** and **Vivek Gobburu** (per about-us) `[verified: site, self-reported]`.
@@ -97,22 +97,30 @@ Positioning: "The Intelligence Layer for Modern Schools." 12+ languages, usage-b
 "10-minute onboarding," no upfront cost. GTM: **partner/reseller program, up to ₹1 lakh/month
 commission** `[verified: /partners]`.
 
-### 2.2 Traction — treat as unverified
+### 2.2 Traction — **claims contradicted by Google Play install data**
 | Claim | Source | Status |
 |---|---|---|
 | 250+ schools | inforida.com, /why-inforida | `[single-source marketing]` |
 | 500,000+ students | inforida.com | `[single-source marketing]` |
-| 100+ schools | YourStory / Tracxn | `[conflict: lower than site]` |
-| 6 AI models, 50k trees saved, 12k sheets/school/yr | site | `[marketing, unfalsifiable]` |
+| 100+ / 300+ schools | YourStory / Tracxn / blog | `[conflict: numbers vary by source]` |
 | Independent press confirming any number | — | **none found** `[verified absence]` |
 
-> **⚠ Disconfirming (the key one):** A company **incorporated March 2025** claiming **250 schools
-> / 500k students** by mid-2026 implies ~onboarding a school every ~2 days from day zero with a
-> <50-person team. Possible only if (a) counting free/pilot/trial signups as "schools," or (b) the
-> product ran under a predecessor entity (Xplorida?) pre-incorporation. **No primary evidence
-> (signed contracts, revenue, dated case studies, verified app-install counts) was locatable.**
-> Google Play listing exists (`inforida.in.inforidaapp`) but ratings/installs could not be
-> extracted — **pull install count + review count directly; it is the cheapest reality check.**
+**Google Play — Inforida Technologies developer apps (verified 2026-07-09):**
+| App | Installs | Reviews | Rating |
+|---|---|---|---|
+| **Goood Morning** (biometric attendance) | **100+** | **10** | 4.6★ |
+| **Nucleus** (core school ERP, `inforida.in.inforidaapp`) | not shown (low tier) | — | 4.3★ |
+| Orbit AI (24×7 AI tutor), Sacred Heart School | metrics not shown | — | — |
+
+> **⚠ Disconfirming (the decisive one):** The **Goood Morning attendance app has 100+ installs and
+> 10 reviews.** If **250 schools / 500,000 students** genuinely used the platform, the biometric
+> attendance app — which every student would touch daily — would show **tens of thousands of
+> installs**, not the **100+ tier**. The install data is off from the marketing claim by **~3–4
+> orders of magnitude.** `[verified: Google Play developer directory]`
+>
+> **Conclusion:** "250+ schools / 500k students" is **not supported by any observable primary
+> data.** Most likely counts trials/pilots/demo signups, or is aspirational. A March-2025 company
+> with a 100+-install flagship app is **early-stage / pre-traction**, whatever the banner says.
 
 ### 2.3 Funding — resolved
 - **Unfunded / no disclosed round** per Crunchbase, Tracxn, YourStory (3 independent) `[verified]`.
@@ -213,8 +221,8 @@ commission** `[verified: /partners]`.
    contact with MCA data; align public copy before any fundraise/partner pitch.
 2. **Verify traction primary-source** — pull Google Play install + rating count; ask for count of
    *paying, renewing* schools vs free trials; get 2–3 dated, named case studies.
-3. **Investigate Xplorida→Inforida** — is there a predecessor entity that carries the pre-2025
-   history? That could legitimately explain older traction claims.
+3. ~~Investigate Xplorida→Inforida~~ **DONE** — Xplorida is an *advertising* company (Noida), not
+   a school-software predecessor. It does **not** explain the pre-2025 traction story. Gap stands.
 4. **Mine competitor reviews (Step 2, deferred)** — 1–2★ reviews of Teachmint/Entab/LEAD apps to
    confirm which unresolved complaints Inforida actually fixes.
 5. **Pick a beachhead segment** — private low-fee vs govt have opposite sales cycles; bootstrapped
