@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<!--
+  EMAIL / READING DECK — ~10 slides, stands alone without narration.
+  Kevin Hale (YC): legible / simple / obvious. One idea + one caption line per slide.
+  FILL BEFORE SENDING: [Company], [Founder], contact, market figures (slide 6),
+  pricing (slide 7), pilot numbers + quote (slide 8), team (slide 9).
+  Confirm: SAFE vs equity, $300k pre- or post-money (slide 10).
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pitch Deck</title>
+<style>
+  :root{ --bg:#faf6ef; --ink:#1c1a17; --muted:#7a736a; --accent:#c8622d; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:Helvetica,Arial,"Segoe UI",system-ui,sans-serif;
+    background:var(--bg); color:var(--ink); overflow:hidden;
+  }
+  .deck{height:100vh;width:100vw;position:relative}
+  .slide{
+    position:absolute;inset:0;display:none;
+    flex-direction:column;justify-content:flex-start;
+    padding:12vh 9vw 9vh;
+  }
+  .slide.active{display:flex}
+  .kicker{color:var(--accent);font-weight:700;letter-spacing:.18em;
+    text-transform:uppercase;font-size:.95rem;margin-bottom:2.4vh}
+  h1{font-size:clamp(2.4rem,6.5vw,5rem);font-weight:800;line-height:1.05;letter-spacing:-.02em}
+  .sub{font-size:clamp(1.15rem,2.4vw,1.8rem);color:var(--muted);
+    font-weight:600;margin-top:3.5vh;max-width:30ch;line-height:1.3}
+  .accent{color:var(--accent)}
+  .nums{display:flex;gap:5vw;margin-top:5vh;flex-wrap:wrap}
+  .num .big{font-size:clamp(2.6rem,6vw,4.5rem);font-weight:800;color:var(--accent);line-height:1}
+  .num .lbl{font-size:clamp(.95rem,1.6vw,1.2rem);color:var(--muted);font-weight:600;margin-top:1vh;max-width:16ch}
+  .rows{margin-top:4vh;display:flex;flex-direction:column;gap:2.2vh;max-width:34ch}
+  .row{font-size:clamp(1.15rem,2.2vw,1.7rem);font-weight:700}
+  .row span{color:var(--muted);font-weight:600}
+  .contact{position:absolute;bottom:7vh;left:9vw;color:var(--muted);
+    font-size:clamp(1rem,1.6vw,1.3rem);font-weight:600}
+  .counter{position:fixed;bottom:22px;right:26px;color:#b3a793;font-size:.85rem}
+  .nav{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:.5rem}
+  .nav button{background:#efe7d8;color:var(--ink);border:1px solid #d8cdbb;
+    border-radius:8px;padding:.35rem .8rem;cursor:pointer;font-size:1rem}
+  .nav button:hover{border-color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="deck" id="deck">
+
+  <!-- 1 TITLE -->
+  <section class="slide active">
+    <div class="kicker">Pre-seed · B2B SaaS · India</div>
+    <h1>[Company]</h1>
+    <div class="sub">An <span class="accent">AI teacher's aide</span> for Indian schools.</div>
+    <div class="contact">[Founder] · [email] · [phone]</div>
+  </section>
+
+  <!-- 2 PROBLEM -->
+  <section class="slide">
+    <div class="kicker">Problem</div>
+    <h1>30+ students<br>per teacher.</h1>
+    <div class="sub">No time for personal help. Teachers drown in grading and admin.</div>
+  </section>
+
+  <!-- 3 SOLUTION -->
+  <section class="slide">
+    <div class="kicker">Solution</div>
+    <h1>An <span class="accent">AI tutor</span> for every student.</h1>
+    <div class="sub">And an AI aide that does the teacher's busywork — in Indian languages.</div>
+  </section>
+
+  <!-- 4 HOW IT WORKS -->
+  <section class="slide">
+    <div class="kicker">How it works</div>
+    <h1>One tool.<br>Four wins.</h1>
+    <div class="rows">
+      <div class="row">Teacher <span>— auto-grades, plans lessons</span></div>
+      <div class="row">Student <span>— 24/7 tutor, syllabus-aligned</span></div>
+      <div class="row">Parent <span>— live progress, no WhatsApp chaos</span></div>
+      <div class="row">Admin <span>— one dashboard for the school</span></div>
+    </div>
+  </section>
+
+  <!-- 5 WHY NOW -->
+  <section class="slide">
+    <div class="kicker">Why now</div>
+    <h1>The window<br>is open.</h1>
+    <div class="rows">
+      <div class="row">AI got cheap <span>— a tutor per student is now affordable</span></div>
+      <div class="row">NEP 2020 <span>— policy mandates personalized, multilingual learning</span></div>
+      <div class="row">Vernacular AI <span>— models now handle Indian languages</span></div>
+    </div>
+  </section>
+
+  <!-- 6 MARKET -->
+  <section class="slide">
+    <div class="kicker">Market</div>
+    <h1>Huge and<br>underserved.</h1>
+    <div class="nums">
+      <div class="num"><div class="big">~1.5M</div><div class="lbl">K-12 schools in India</div></div>
+      <div class="num"><div class="big">~250M</div><div class="lbl">K-12 students</div></div>
+      <div class="num"><div class="big">$[X]B</div><div class="lbl">India EdTech, ~[X]% CAGR</div></div>
+    </div>
+  </section>
+
+  <!-- 7 BUSINESS MODEL -->
+  <section class="slide">
+    <div class="kicker">Business model</div>
+    <h1><span class="accent">₹[XXX]</span> per student, per year.</h1>
+    <div class="sub">Land on the AI tutor → expand into paid ERP modules. Account value grows, churn stays low.</div>
+  </section>
+
+  <!-- 8 TRACTION -->
+  <section class="slide">
+    <div class="kicker">Traction</div>
+    <h1>[X] schools<br>piloting.</h1>
+    <div class="sub">"[Cut my grading time in half.]" — [pilot teacher/principal]. [X] more in pipeline.</div>
+  </section>
+
+  <!-- 9 TEAM -->
+  <section class="slide">
+    <div class="kicker">Team</div>
+    <h1>Built to win<br>this market.</h1>
+    <div class="rows">
+      <div class="row">[Founder] <span>— [why you: domain / tech / sales edge]</span></div>
+      <div class="row">[Co-founder] <span>— [relevant background]</span></div>
+      <div class="row">[Advisor] <span>— [education / GTM credibility]</span></div>
+    </div>
+  </section>
+
+  <!-- 10 THE ASK -->
+  <section class="slide">
+    <div class="kicker">The ask</div>
+    <h1><span class="accent">$30k</span> for 10%.<br>$300k valuation.</h1>
+    <div class="sub">3-month build → paying schools. Funds product, pilots, GTM.</div>
+    <div class="contact">[Founder] · [email] · [phone]</div>
+  </section>
+
+</div>
+
+<div class="counter" id="counter">1 / 10</div>
+<div class="nav">
+  <button onclick="go(-1)">‹</button>
+  <button onclick="go(1)">›</button>
+</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  let i=0;
+  function render(){
+    slides.forEach((s,n)=>s.classList.toggle('active',n===i));
+    document.getElementById('counter').textContent=(i+1)+' / '+slides.length;
+  }
+  function go(d){i=Math.max(0,Math.min(slides.length-1,i+d));render();}
+  document.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ')go(1);
+    if(e.key==='ArrowLeft'||e.key==='PageUp')go(-1);
+    if(e.key==='Home'){i=0;render();}
+    if(e.key==='End'){i=slides.length-1;render();}
+  });
+  render();
+</script>
+</body>
+</html>
