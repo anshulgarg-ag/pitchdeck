@@ -1,0 +1,41 @@
+MASTER 01 — CONSULTING PITCH
+Version 1.0 | 5 October 2026 | 10 slides | 16:9
+
+FILES
+01-consulting-pitch-master.potx — reusable PowerPoint template
+01-consulting-pitch-master.pptx — editable starter deck
+preview.png — overview of all ten slides
+
+START A COMPANY DECK
+1. Open the POTX to create a new presentation, or save a copy of the PPTX under your company name.
+2. Replace every bracketed field with your own company information. Rewrite the takeaway headlines after you have the evidence.
+3. Replace chart values on slides 4 and 6 using PowerPoint's Edit Data. The existing numbers are illustrative index values, not market or company facts.
+4. Edit the native tables on slides 3, 7, 8 and 10. Define currencies, units and periods. Make funding allocations sum to the ask.
+5. Replace source prompts with actual documents, dates and links. The speaker notes contain guidance for each slide.
+6. Change the company footer and remove the Master 01 label from the cover before presenting.
+7. Save the company version separately. Duplicate a full starter slide when reusing a chart, table or process layout. The Slide Master layouts provide the title and underlying style; the evidence objects remain on the editable starter slides.
+
+SLIDE MAP
+01 Investment proposition — company, customer and outcome
+02 Executive summary — requested decision and three supporting reasons
+03 Market opportunity — bottom-up market sizing and timing
+04 Customer problem — quantified pain and its causes
+05 Our solution — three-step workflow and measurable improvement
+06 Traction — primary metric trend and supporting evidence
+07 Business model — payer, pricing and unit economics
+08 Competitive advantage — buyer criteria and factual comparisons
+09 Go-to-market plan — acquisition, retention and accountable team
+10 Funding and milestones — amount, allocations, outcomes and decision
+
+DESIGN RULES
+Lead with the recommendation, then show the evidence. Use one main message per slide. Headlines should communicate the takeaway. Keep supporting arguments distinct and cover the major questions. Use simple charts and source the evidence. Keep the visual system consistent.
+
+STYLE
+Arial. Navy #092B40, teal #007F82, white #FFFFFF, supporting gray #576976. Approximate sizes: cover 43 pt, slide headlines 28.5 pt, body 16.5–19.5 pt, source notes 9.75 pt. The PowerPoint theme stores the palette. Some chart and table colors are explicit to preserve their appearance.
+
+REFERENCE
+SlideUpLift, “McKinsey Style Presentation”
+https://slideuplift.com/blog/mckinsey-style-presentation/
+Read on 5 October 2026.
+
+This is an independently created template based on the guide's general presentation principles. It is not an official McKinsey or SlideUpLift template. Company facts and company branding have intentionally not been added.
